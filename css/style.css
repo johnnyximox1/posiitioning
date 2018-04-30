@@ -1,0 +1,41 @@
+*  {
+    border: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    height: 650px;
+    background-color: gray;
+}
+.position {
+    width: 200px;
+    height: 200px;
+    border:  2px solid gray;
+    position: absolute;
+}
+.left-top{
+   background-color: red;
+}
+.right-top{
+    background-color: green;
+    right: 0;
+}
+.center{
+    background-color: aqua;
+    margin: 0 auto;
+    top: 34%;
+    right: 0;
+    left: 0;
+}
+.left-bottom {
+    background-color: fuchsia;
+    bottom: 0;
+}
+.right-bottom {
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}
+
+
+
